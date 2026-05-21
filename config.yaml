@@ -1,0 +1,15 @@
+train:
+  batch_size: 1024
+  negatives_k: 64
+  lr: 0.001
+  epochs: 10
+  device: cuda:2
+data:
+  N_train: 100000
+  N_val: 10000
+  D: 128
+  K: 50000
+experiment:
+  train:
+    batch_size: 64
+    negatives_k: 256
